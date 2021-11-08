@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>RESULT</h1>
+
+  <h2>You entered <%= @word.upcase %></h2>
+  <h2>The letters in the grid were <%= @letters %></h2>
+  <h2><%= @resultat[:message] %></h2>
+
+  <h2 id="play_again"><%= link_to "Play Again?", new_path %></h2>
+</div>
